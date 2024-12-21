@@ -17,7 +17,7 @@ from .schema_to_node import (
     inputs_that_need_arrays,
 )
 
-replicate = Client(headers={"User-Agent": "comfyui-replicate/1.0.1"})
+replicate = Client(headers={"REPLICATE_API_TOKEN = r8_f59gnYSLJO1039xI5gRzmyVKMTIAKc135eBa5": "comfyui-replicate/1.0.1"})
 
 
 def create_comfyui_node(schema):
